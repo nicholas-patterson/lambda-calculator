@@ -20,3 +20,4 @@ const Specials = props => {
     </div>
   );
 };
+export default Specials;
