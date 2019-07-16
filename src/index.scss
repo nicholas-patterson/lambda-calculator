@@ -1,3 +1,8 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -9,4 +14,66 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn-circle {
+  border-radius: 50%;
+  background-color: #1b4477;
+  padding: 20px 20px;
+  border: none;
+  box-shadow: 0px 3px 2px black;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  width: 6.5rem;
+  &.zero {
+    padding: 2rem 7.3rem;
+    border-radius: 5rem;
+  }
+}
+
+.container {
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background: crimson;
+  height: inherit;
+  padding: 30px;
+}
+
+.display-area {
+  background: #333;
+  width: inherit;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: right;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  ​ .left {
+    width: 70%;
+  }
+  ​ .right {
+    width: 30%;
+  }
+}
+
+.opera {
+  background: #287291;
+  font-size: 2.5rem;
+}
+
+.specials {
+  background: #265e9c;
+  font-size: 2.5rem;
+}
+
+.numbers {
+  background: #1b4477;
+  font-size: 2.5rem;
 }
